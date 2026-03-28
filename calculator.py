@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 import re
 
@@ -30,3 +31,13 @@ while programOn:
 
     operation = ''
     alert = "\n--The result is " + str(result) + "--"
+=======
+from math import *
+
+while True:
+  try:
+    print(eval(input('Input a math problem: ')))
+
+  except:
+    print('Sorry?')
+>>>>>>> f15c853 (first commit)
